@@ -17,7 +17,7 @@ import { alchemyProvider } from "wagmi/providers/alchemy";
 import { infuraProvider } from "wagmi/providers/infura";
 import { publicProvider } from "wagmi/providers/public";
 const { chains, provider } = configureChains(
-  [mainnet],
+  [bsc],
   [infuraProvider({ apiKey: "3c4271aae2094738b266f6974fb89920" }), publicProvider()]
 );
 
