@@ -12,7 +12,7 @@ const Stake = () => {
   const [input, setInput] = useState("0");
   const [progress, setProgress] = useState(false);
   const [approval, setApproval] = useState(true);
-  // const CONTRACT = "0xad76990f341542855f460824971102fbd5defa4d";
+  const CONTRACT = "0xsdas";
   const TOKEN_CONTRACT = "0xB86eB91dd2501cdf56Ca9fb121c38e842E4AEdf1";
   const { address, isConnected, isReconnecting, isConnecting, isDisconnected } =
     useAccount();
